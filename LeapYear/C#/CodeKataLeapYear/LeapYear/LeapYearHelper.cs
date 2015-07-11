@@ -11,10 +11,13 @@ namespace LeapYear
     {
         public static bool IsLeapYear(int year)
         {
-            if (!IsAtypicalCommonYear(year)) 
-                return false;
-            
-            return year % 4 == 0;
+            return !IsAtypicalCommonYear(year) && 
+                IsTypicalLeapYear(year);
+        }
+
+        private static bool IsTypicalLeapYear(int year)
+        {
+            return year%4 == 0;
         }
 
         private static bool IsAtypicalCommonYear(int year)

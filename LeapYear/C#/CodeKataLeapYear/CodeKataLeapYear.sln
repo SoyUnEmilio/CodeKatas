@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear", "LeapYear\LeapYear.csproj", "{739433A8-DCE0-422F-B227-BB5A8009ABCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearTests", "LeapYearTests\LeapYearTests.csproj", "{A815B391-9909-4899-9F59-163160D3487F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{739433A8-DCE0-422F-B227-BB5A8009ABCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739433A8-DCE0-422F-B227-BB5A8009ABCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739433A8-DCE0-422F-B227-BB5A8009ABCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739433A8-DCE0-422F-B227-BB5A8009ABCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A815B391-9909-4899-9F59-163160D3487F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A815B391-9909-4899-9F59-163160D3487F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A815B391-9909-4899-9F59-163160D3487F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A815B391-9909-4899-9F59-163160D3487F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

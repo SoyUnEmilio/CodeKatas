@@ -7,13 +7,13 @@ namespace LeapYearTests
     public class LeapYearHelperTest
     {
         [Test]
-        public void TestingNormalLeapYear()
+        public void IsLeapYear_TestingNormalLeapYear1996_ShouldBeTrue()
         {
             Assert.IsTrue(LeapYearHelper.IsLeapYear(1996));
         }
 
         [Test]
-        public void TestingCommonNormalYear()
+        public void IsLeapYear_TestingNormalLeapYear2001_ShouldBeFalse()
         {
             Assert.IsFalse(LeapYearHelper.IsLeapYear(2001));
         }

@@ -19,6 +19,9 @@ namespace LeapYearTests
         }
 
         [Test]
-        public void IsLeapYear_TestingSpecialLeapY
+        public void IsLeapYear_TestingSpecialLeapYear2000_ShouldBeTrue()
+        {
+            Assert.IsTrue(LeapYearHelper.IsLeapYear(2000));
+        }
     }
 }
